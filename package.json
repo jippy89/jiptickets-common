@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "clean": "del-cli ./build/*",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "publish:patch": "npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "Jip Irfandy <irfandyjip98@gmail.com>",
