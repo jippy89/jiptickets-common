@@ -11,6 +11,8 @@ export const errorHandler = (err: Error, req: Request, res: Response, next: Next
     return res.status(err.statusCode).send({ errors: formattedErrors })
   }
 
+  console.error(err)
+
   errorResponses.errors = [
     { message: 'Something went wrong' }
   ]
