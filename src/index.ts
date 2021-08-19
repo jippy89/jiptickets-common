@@ -18,3 +18,13 @@ export * from './middlewares/current-user'
 export * from './middlewares/error-handler'
 export * from './middlewares/require-auth'
 export * from './middlewares/validate-request'
+
+// Events
+export * from './events/Event'
+export * from './events/subjects'
+export * from './events/Listener'
+export * from './events/Publisher'
+
+// events/tickets
+export * from './events/tickets/ticket-created-event'
+export * from './events/tickets/ticket-updated-event'
