@@ -4,7 +4,7 @@
  * @enum {string}
  * @property {string} Created - When the order has been created but the ticket it is trying to reserve has not been reserved.
  */
-export enum OrderSTatus {
+export enum OrderStatus {
   /** When the order has been created but the ticket it is trying to reserve has not been reserved. */
   Created = 'created',
   /** The ticket order is trying to reserve has already been reserved, or when the user has cancelled the order, or order has expired.  */
