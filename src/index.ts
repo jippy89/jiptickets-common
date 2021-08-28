@@ -28,3 +28,6 @@ export * from './events/Publisher'
 // events/tickets
 export * from './events/tickets/ticket-created-event'
 export * from './events/tickets/ticket-updated-event'
+
+// events/types
+export * from './events/types/order-status'
