@@ -7,6 +7,7 @@
 // We will go with option 2!
 
 // Errors
+export * from './errors/bad-request-error'
 export * from './errors/conflict-error'
 export * from './errors/database-connection-error'
 export * from './errors/not-authorized-error'
