@@ -30,5 +30,9 @@ export * from './events/Publisher'
 export * from './events/tickets/ticket-created-event'
 export * from './events/tickets/ticket-updated-event'
 
+// events/orders
+export * from './events/orders/order-created-event'
+export * from './events/orders/order-cancelled-event'
+
 // events/types
 export * from './events/types/order-status'
